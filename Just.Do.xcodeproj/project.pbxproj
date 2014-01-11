@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		88510512187AADA70087D4D5 /* SetTimeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88510511187AADA70087D4D5 /* SetTimeViewController.m */; };
 		88BE91DE18682AF4000F4282 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88BE91DD18682AF4000F4282 /* Foundation.framework */; };
 		88BE91E018682AF4000F4282 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88BE91DF18682AF4000F4282 /* CoreGraphics.framework */; };
 		88BE91E218682AF4000F4282 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88BE91E118682AF4000F4282 /* UIKit.framework */; };
@@ -16,8 +17,6 @@
 		88BE91F018682AF4000F4282 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 88BE91EF18682AF4000F4282 /* AppDelegate.m */; };
 		88BE91F318682AF4000F4282 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88BE91F118682AF4000F4282 /* Main.storyboard */; };
 		88BE91F618682AF4000F4282 /* Just_Do.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 88BE91F418682AF4000F4282 /* Just_Do.xcdatamodeld */; };
-		88BE91F918682AF4000F4282 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88BE91F818682AF4000F4282 /* MasterViewController.m */; };
-		88BE91FC18682AF4000F4282 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88BE91FB18682AF4000F4282 /* DetailViewController.m */; };
 		88BE91FE18682AF4000F4282 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88BE91FD18682AF4000F4282 /* Images.xcassets */; };
 		88BE920518682AF4000F4282 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88BE920418682AF4000F4282 /* XCTest.framework */; };
 		88BE920618682AF4000F4282 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88BE91DD18682AF4000F4282 /* Foundation.framework */; };
@@ -25,6 +24,12 @@
 		88BE920818682AF4000F4282 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88BE91E318682AF4000F4282 /* CoreData.framework */; };
 		88BE921018682AF4000F4282 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 88BE920E18682AF4000F4282 /* InfoPlist.strings */; };
 		88BE921218682AF4000F4282 /* Just_DoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 88BE921118682AF4000F4282 /* Just_DoTests.m */; };
+		88BE921F18682B45000F4282 /* Add Assignment.png in Resources */ = {isa = PBXBuildFile; fileRef = 88BE921C18682B45000F4282 /* Add Assignment.png */; };
+		88BE922018682B45000F4282 /* Add.png in Resources */ = {isa = PBXBuildFile; fileRef = 88BE921D18682B45000F4282 /* Add.png */; };
+		88BE922118682B45000F4282 /* spline.png in Resources */ = {isa = PBXBuildFile; fileRef = 88BE921E18682B45000F4282 /* spline.png */; };
+		88BE922418682C5C000F4282 /* HomePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88BE922318682C5C000F4282 /* HomePageViewController.m */; };
+		88BE9227186833CC000F4282 /* AddClassViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88BE9226186833CC000F4282 /* AddClassViewController.m */; };
+		88BE922A186833F6000F4282 /* AddAssignmentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88BE9229186833F6000F4282 /* AddAssignmentViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +43,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		88510510187AADA70087D4D5 /* SetTimeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SetTimeViewController.h; sourceTree = "<group>"; };
+		88510511187AADA70087D4D5 /* SetTimeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SetTimeViewController.m; sourceTree = "<group>"; };
 		88BE91DA18682AF4000F4282 /* Just.Do.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Just.Do.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		88BE91DD18682AF4000F4282 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		88BE91DF18682AF4000F4282 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -51,16 +58,21 @@
 		88BE91EF18682AF4000F4282 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		88BE91F218682AF4000F4282 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		88BE91F518682AF4000F4282 /* Just_Do.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Just_Do.xcdatamodel; sourceTree = "<group>"; };
-		88BE91F718682AF4000F4282 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
-		88BE91F818682AF4000F4282 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
-		88BE91FA18682AF4000F4282 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
-		88BE91FB18682AF4000F4282 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		88BE91FD18682AF4000F4282 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		88BE920318682AF4000F4282 /* Just.DoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Just.DoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		88BE920418682AF4000F4282 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		88BE920D18682AF4000F4282 /* Just.DoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Just.DoTests-Info.plist"; sourceTree = "<group>"; };
 		88BE920F18682AF4000F4282 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		88BE921118682AF4000F4282 /* Just_DoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Just_DoTests.m; sourceTree = "<group>"; };
+		88BE921C18682B45000F4282 /* Add Assignment.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Add Assignment.png"; sourceTree = "<group>"; };
+		88BE921D18682B45000F4282 /* Add.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Add.png; sourceTree = "<group>"; };
+		88BE921E18682B45000F4282 /* spline.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spline.png; sourceTree = "<group>"; };
+		88BE922218682C5C000F4282 /* HomePageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomePageViewController.h; sourceTree = "<group>"; };
+		88BE922318682C5C000F4282 /* HomePageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomePageViewController.m; sourceTree = "<group>"; };
+		88BE9225186833CC000F4282 /* AddClassViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddClassViewController.h; sourceTree = "<group>"; };
+		88BE9226186833CC000F4282 /* AddClassViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddClassViewController.m; sourceTree = "<group>"; };
+		88BE9228186833F6000F4282 /* AddAssignmentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddAssignmentViewController.h; sourceTree = "<group>"; };
+		88BE9229186833F6000F4282 /* AddAssignmentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddAssignmentViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,10 +138,14 @@
 				88BE91EE18682AF4000F4282 /* AppDelegate.h */,
 				88BE91EF18682AF4000F4282 /* AppDelegate.m */,
 				88BE91F118682AF4000F4282 /* Main.storyboard */,
-				88BE91F718682AF4000F4282 /* MasterViewController.h */,
-				88BE91F818682AF4000F4282 /* MasterViewController.m */,
-				88BE91FA18682AF4000F4282 /* DetailViewController.h */,
-				88BE91FB18682AF4000F4282 /* DetailViewController.m */,
+				88510510187AADA70087D4D5 /* SetTimeViewController.h */,
+				88510511187AADA70087D4D5 /* SetTimeViewController.m */,
+				88BE9228186833F6000F4282 /* AddAssignmentViewController.h */,
+				88BE9229186833F6000F4282 /* AddAssignmentViewController.m */,
+				88BE9225186833CC000F4282 /* AddClassViewController.h */,
+				88BE9226186833CC000F4282 /* AddClassViewController.m */,
+				88BE922218682C5C000F4282 /* HomePageViewController.h */,
+				88BE922318682C5C000F4282 /* HomePageViewController.m */,
 				88BE91FD18682AF4000F4282 /* Images.xcassets */,
 				88BE91F418682AF4000F4282 /* Just_Do.xcdatamodeld */,
 				88BE91E618682AF4000F4282 /* Supporting Files */,
@@ -140,6 +156,7 @@
 		88BE91E618682AF4000F4282 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				88BE921B18682B45000F4282 /* res */,
 				88BE91E718682AF4000F4282 /* Just.Do-Info.plist */,
 				88BE91E818682AF4000F4282 /* InfoPlist.strings */,
 				88BE91EB18682AF4000F4282 /* main.m */,
@@ -164,6 +181,16 @@
 				88BE920E18682AF4000F4282 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		88BE921B18682B45000F4282 /* res */ = {
+			isa = PBXGroup;
+			children = (
+				88BE921C18682B45000F4282 /* Add Assignment.png */,
+				88BE921D18682B45000F4282 /* Add.png */,
+				88BE921E18682B45000F4282 /* spline.png */,
+			);
+			path = res;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,8 +270,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				88BE91FE18682AF4000F4282 /* Images.xcassets in Resources */,
+				88BE922018682B45000F4282 /* Add.png in Resources */,
+				88BE922118682B45000F4282 /* spline.png in Resources */,
 				88BE91EA18682AF4000F4282 /* InfoPlist.strings in Resources */,
 				88BE91F318682AF4000F4282 /* Main.storyboard in Resources */,
+				88BE921F18682B45000F4282 /* Add Assignment.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,9 +293,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				88BE91FC18682AF4000F4282 /* DetailViewController.m in Sources */,
-				88BE91F918682AF4000F4282 /* MasterViewController.m in Sources */,
+				88BE922418682C5C000F4282 /* HomePageViewController.m in Sources */,
+				88BE9227186833CC000F4282 /* AddClassViewController.m in Sources */,
 				88BE91F018682AF4000F4282 /* AppDelegate.m in Sources */,
+				88BE922A186833F6000F4282 /* AddAssignmentViewController.m in Sources */,
+				88510512187AADA70087D4D5 /* SetTimeViewController.m in Sources */,
 				88BE91F618682AF4000F4282 /* Just_Do.xcdatamodeld in Sources */,
 				88BE91EC18682AF4000F4282 /* main.m in Sources */,
 			);
@@ -476,6 +508,7 @@
 				88BE921718682AF4000F4282 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		88BE921818682AF4000F4282 /* Build configuration list for PBXNativeTarget "Just.DoTests" */ = {
 			isa = XCConfigurationList;
@@ -484,6 +517,7 @@
 				88BE921A18682AF4000F4282 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
