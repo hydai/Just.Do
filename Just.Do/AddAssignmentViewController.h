@@ -8,6 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AddAssignmentViewController : UIViewController
+@interface AddAssignmentViewController : UIViewController 
+@property (weak, nonatomic) IBOutlet UITextField *assignmentName;
+@property (weak, nonatomic) IBOutlet UIDatePicker *deadlinePicker;
+@property (weak, nonatomic) IBOutlet UISlider *prioritySlider;
 
 @end

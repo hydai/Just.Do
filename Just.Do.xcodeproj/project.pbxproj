@@ -7,7 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		88510512187AADA70087D4D5 /* SetTimeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88510511187AADA70087D4D5 /* SetTimeViewController.m */; };
+		880AD7221883095F0020DCFB /* AssignmentListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 880AD7211883095F0020DCFB /* AssignmentListViewController.m */; };
+		880AD7251883096B0020DCFB /* TodoListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 880AD7241883096B0020DCFB /* TodoListViewController.m */; };
+		88236DE118817C3D00F362E1 /* SetFromTimeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88236DE018817C3D00F362E1 /* SetFromTimeViewController.m */; };
+		88236DE418817C5C00F362E1 /* SetToTimeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88236DE318817C5C00F362E1 /* SetToTimeViewController.m */; };
 		88BE91DE18682AF4000F4282 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88BE91DD18682AF4000F4282 /* Foundation.framework */; };
 		88BE91E018682AF4000F4282 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88BE91DF18682AF4000F4282 /* CoreGraphics.framework */; };
 		88BE91E218682AF4000F4282 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88BE91E118682AF4000F4282 /* UIKit.framework */; };
@@ -30,6 +33,26 @@
 		88BE922418682C5C000F4282 /* HomePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88BE922318682C5C000F4282 /* HomePageViewController.m */; };
 		88BE9227186833CC000F4282 /* AddClassViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88BE9226186833CC000F4282 /* AddClassViewController.m */; };
 		88BE922A186833F6000F4282 /* AddAssignmentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88BE9229186833F6000F4282 /* AddAssignmentViewController.m */; };
+		88D568C818819C0600F9B5D5 /* Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 88D568C418819C0600F9B5D5 /* Logo.png */; };
+		88D568CB18819CF600F9B5D5 /* Images-2.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88D568CA18819CF600F9B5D5 /* Images-2.xcassets */; };
+		88D568E418819DF100F9B5D5 /* Logo-58.png in Resources */ = {isa = PBXBuildFile; fileRef = 88D568E118819DF100F9B5D5 /* Logo-58.png */; };
+		88D568E518819DF100F9B5D5 /* Logo-80.png in Resources */ = {isa = PBXBuildFile; fileRef = 88D568E218819DF100F9B5D5 /* Logo-80.png */; };
+		88D568E618819DF100F9B5D5 /* Logo-120.png in Resources */ = {isa = PBXBuildFile; fileRef = 88D568E318819DF100F9B5D5 /* Logo-120.png */; };
+		88D568E818819F0C00F9B5D5 /* Logo-20.png in Resources */ = {isa = PBXBuildFile; fileRef = 88D568E718819F0C00F9B5D5 /* Logo-20.png */; };
+		88D568EA1881A11200F9B5D5 /* Logo-76.png in Resources */ = {isa = PBXBuildFile; fileRef = 88D568E91881A11200F9B5D5 /* Logo-76.png */; };
+		88D568EE1881A24800F9B5D5 /* Logo-29.png in Resources */ = {isa = PBXBuildFile; fileRef = 88D568EB1881A24800F9B5D5 /* Logo-29.png */; };
+		88D568EF1881A24800F9B5D5 /* Logo-40.png in Resources */ = {isa = PBXBuildFile; fileRef = 88D568EC1881A24800F9B5D5 /* Logo-40.png */; };
+		88D568F01881A24800F9B5D5 /* Logo-60.png in Resources */ = {isa = PBXBuildFile; fileRef = 88D568ED1881A24800F9B5D5 /* Logo-60.png */; };
+		88D568F21881A2E200F9B5D5 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 88D568F11881A2E200F9B5D5 /* Default-568h@2x.png */; };
+		88D568F61881AC0E00F9B5D5 /* Assignment.png in Resources */ = {isa = PBXBuildFile; fileRef = 88D568F31881AC0E00F9B5D5 /* Assignment.png */; };
+		88D568F71881AC0E00F9B5D5 /* Check.png in Resources */ = {isa = PBXBuildFile; fileRef = 88D568F41881AC0E00F9B5D5 /* Check.png */; };
+		88D568F81881AC0E00F9B5D5 /* General.png in Resources */ = {isa = PBXBuildFile; fileRef = 88D568F51881AC0E00F9B5D5 /* General.png */; };
+		88D568FA1881AC9E00F9B5D5 /* Assignment-120.png in Resources */ = {isa = PBXBuildFile; fileRef = 88D568F91881AC9E00F9B5D5 /* Assignment-120.png */; };
+		88D568FC1881ACC700F9B5D5 /* Assignment-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 88D568FB1881ACC700F9B5D5 /* Assignment-50.png */; };
+		88D568FE1881ACEE00F9B5D5 /* Assignment-20.png in Resources */ = {isa = PBXBuildFile; fileRef = 88D568FD1881ACEE00F9B5D5 /* Assignment-20.png */; };
+		88D569001881AD1400F9B5D5 /* Assignment-35.png in Resources */ = {isa = PBXBuildFile; fileRef = 88D568FF1881AD1400F9B5D5 /* Assignment-35.png */; };
+		88D569031881AD6100F9B5D5 /* Check-35.png in Resources */ = {isa = PBXBuildFile; fileRef = 88D569011881AD6100F9B5D5 /* Check-35.png */; };
+		88D569041881AD6100F9B5D5 /* General-35.png in Resources */ = {isa = PBXBuildFile; fileRef = 88D569021881AD6100F9B5D5 /* General-35.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,8 +66,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		88510510187AADA70087D4D5 /* SetTimeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SetTimeViewController.h; sourceTree = "<group>"; };
-		88510511187AADA70087D4D5 /* SetTimeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SetTimeViewController.m; sourceTree = "<group>"; };
+		880AD7201883095F0020DCFB /* AssignmentListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AssignmentListViewController.h; sourceTree = "<group>"; };
+		880AD7211883095F0020DCFB /* AssignmentListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AssignmentListViewController.m; sourceTree = "<group>"; };
+		880AD7231883096B0020DCFB /* TodoListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TodoListViewController.h; sourceTree = "<group>"; };
+		880AD7241883096B0020DCFB /* TodoListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TodoListViewController.m; sourceTree = "<group>"; };
+		880AD73218831ADF0020DCFB /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		88236DDF18817C3D00F362E1 /* SetFromTimeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SetFromTimeViewController.h; sourceTree = "<group>"; };
+		88236DE018817C3D00F362E1 /* SetFromTimeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SetFromTimeViewController.m; sourceTree = "<group>"; };
+		88236DE218817C5C00F362E1 /* SetToTimeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SetToTimeViewController.h; sourceTree = "<group>"; };
+		88236DE318817C5C00F362E1 /* SetToTimeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SetToTimeViewController.m; sourceTree = "<group>"; };
 		88BE91DA18682AF4000F4282 /* Just.Do.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Just.Do.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		88BE91DD18682AF4000F4282 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		88BE91DF18682AF4000F4282 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -73,6 +103,26 @@
 		88BE9226186833CC000F4282 /* AddClassViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddClassViewController.m; sourceTree = "<group>"; };
 		88BE9228186833F6000F4282 /* AddAssignmentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddAssignmentViewController.h; sourceTree = "<group>"; };
 		88BE9229186833F6000F4282 /* AddAssignmentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddAssignmentViewController.m; sourceTree = "<group>"; };
+		88D568C418819C0600F9B5D5 /* Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Logo.png; sourceTree = "<group>"; };
+		88D568CA18819CF600F9B5D5 /* Images-2.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Images-2.xcassets"; sourceTree = "<group>"; };
+		88D568E118819DF100F9B5D5 /* Logo-58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Logo-58.png"; path = "../../../../../Dropbox/Just.Do/Logo-58.png"; sourceTree = "<group>"; };
+		88D568E218819DF100F9B5D5 /* Logo-80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Logo-80.png"; path = "../../../../../Dropbox/Just.Do/Logo-80.png"; sourceTree = "<group>"; };
+		88D568E318819DF100F9B5D5 /* Logo-120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Logo-120.png"; path = "../../../../../Dropbox/Just.Do/Logo-120.png"; sourceTree = "<group>"; };
+		88D568E718819F0C00F9B5D5 /* Logo-20.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Logo-20.png"; path = "../../../../../Dropbox/Just.Do/Logo-20.png"; sourceTree = "<group>"; };
+		88D568E91881A11200F9B5D5 /* Logo-76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Logo-76.png"; path = "../../../../../Dropbox/Just.Do/Logo-76.png"; sourceTree = "<group>"; };
+		88D568EB1881A24800F9B5D5 /* Logo-29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Logo-29.png"; path = "../../../../../Dropbox/Just.Do/Logo-29.png"; sourceTree = "<group>"; };
+		88D568EC1881A24800F9B5D5 /* Logo-40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Logo-40.png"; path = "../../../../../Dropbox/Just.Do/Logo-40.png"; sourceTree = "<group>"; };
+		88D568ED1881A24800F9B5D5 /* Logo-60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Logo-60.png"; path = "../../../../../Dropbox/Just.Do/Logo-60.png"; sourceTree = "<group>"; };
+		88D568F11881A2E200F9B5D5 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../../Default-568h@2x.png"; sourceTree = "<group>"; };
+		88D568F31881AC0E00F9B5D5 /* Assignment.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Assignment.png; path = ../../../../../Dropbox/Just.Do/Assignment.png; sourceTree = "<group>"; };
+		88D568F41881AC0E00F9B5D5 /* Check.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Check.png; path = ../../../../../Dropbox/Just.Do/Check.png; sourceTree = "<group>"; };
+		88D568F51881AC0E00F9B5D5 /* General.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = General.png; path = ../../../../../Dropbox/Just.Do/General.png; sourceTree = "<group>"; };
+		88D568F91881AC9E00F9B5D5 /* Assignment-120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Assignment-120.png"; path = "../../../../../Dropbox/Just.Do/Assignment-120.png"; sourceTree = "<group>"; };
+		88D568FB1881ACC700F9B5D5 /* Assignment-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Assignment-50.png"; path = "../../../../../Dropbox/Just.Do/Assignment-50.png"; sourceTree = "<group>"; };
+		88D568FD1881ACEE00F9B5D5 /* Assignment-20.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Assignment-20.png"; path = "../../../../../Dropbox/Just.Do/Assignment-20.png"; sourceTree = "<group>"; };
+		88D568FF1881AD1400F9B5D5 /* Assignment-35.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Assignment-35.png"; path = "../../../../../Dropbox/Just.Do/Assignment-35.png"; sourceTree = "<group>"; };
+		88D569011881AD6100F9B5D5 /* Check-35.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Check-35.png"; path = "../../../../../Dropbox/Just.Do/Check-35.png"; sourceTree = "<group>"; };
+		88D569021881AD6100F9B5D5 /* General-35.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "General-35.png"; path = "../../../../../Dropbox/Just.Do/General-35.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +173,7 @@
 		88BE91DC18682AF4000F4282 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				880AD73218831ADF0020DCFB /* libsqlite3.dylib */,
 				88BE91DD18682AF4000F4282 /* Foundation.framework */,
 				88BE91DF18682AF4000F4282 /* CoreGraphics.framework */,
 				88BE91E118682AF4000F4282 /* UIKit.framework */,
@@ -135,20 +186,27 @@
 		88BE91E518682AF4000F4282 /* Just.Do */ = {
 			isa = PBXGroup;
 			children = (
-				88BE91EE18682AF4000F4282 /* AppDelegate.h */,
-				88BE91EF18682AF4000F4282 /* AppDelegate.m */,
-				88BE91F118682AF4000F4282 /* Main.storyboard */,
-				88510510187AADA70087D4D5 /* SetTimeViewController.h */,
-				88510511187AADA70087D4D5 /* SetTimeViewController.m */,
 				88BE9228186833F6000F4282 /* AddAssignmentViewController.h */,
 				88BE9229186833F6000F4282 /* AddAssignmentViewController.m */,
 				88BE9225186833CC000F4282 /* AddClassViewController.h */,
 				88BE9226186833CC000F4282 /* AddClassViewController.m */,
+				88BE91EE18682AF4000F4282 /* AppDelegate.h */,
+				88BE91EF18682AF4000F4282 /* AppDelegate.m */,
+				880AD7201883095F0020DCFB /* AssignmentListViewController.h */,
+				880AD7211883095F0020DCFB /* AssignmentListViewController.m */,
 				88BE922218682C5C000F4282 /* HomePageViewController.h */,
 				88BE922318682C5C000F4282 /* HomePageViewController.m */,
+				88D568CA18819CF600F9B5D5 /* Images-2.xcassets */,
 				88BE91FD18682AF4000F4282 /* Images.xcassets */,
 				88BE91F418682AF4000F4282 /* Just_Do.xcdatamodeld */,
+				88BE91F118682AF4000F4282 /* Main.storyboard */,
+				88236DDF18817C3D00F362E1 /* SetFromTimeViewController.h */,
+				88236DE018817C3D00F362E1 /* SetFromTimeViewController.m */,
+				88236DE218817C5C00F362E1 /* SetToTimeViewController.h */,
+				88236DE318817C5C00F362E1 /* SetToTimeViewController.m */,
 				88BE91E618682AF4000F4282 /* Supporting Files */,
+				880AD7231883096B0020DCFB /* TodoListViewController.h */,
+				880AD7241883096B0020DCFB /* TodoListViewController.m */,
 			);
 			path = Just.Do;
 			sourceTree = "<group>";
@@ -186,7 +244,26 @@
 		88BE921B18682B45000F4282 /* res */ = {
 			isa = PBXGroup;
 			children = (
+				88D569011881AD6100F9B5D5 /* Check-35.png */,
+				88D569021881AD6100F9B5D5 /* General-35.png */,
+				88D568FF1881AD1400F9B5D5 /* Assignment-35.png */,
+				88D568FD1881ACEE00F9B5D5 /* Assignment-20.png */,
+				88D568FB1881ACC700F9B5D5 /* Assignment-50.png */,
+				88D568F91881AC9E00F9B5D5 /* Assignment-120.png */,
 				88BE921C18682B45000F4282 /* Add Assignment.png */,
+				88D568E118819DF100F9B5D5 /* Logo-58.png */,
+				88D568E218819DF100F9B5D5 /* Logo-80.png */,
+				88D568F11881A2E200F9B5D5 /* Default-568h@2x.png */,
+				88D568E718819F0C00F9B5D5 /* Logo-20.png */,
+				88D568EB1881A24800F9B5D5 /* Logo-29.png */,
+				88D568F31881AC0E00F9B5D5 /* Assignment.png */,
+				88D568F41881AC0E00F9B5D5 /* Check.png */,
+				88D568F51881AC0E00F9B5D5 /* General.png */,
+				88D568EC1881A24800F9B5D5 /* Logo-40.png */,
+				88D568ED1881A24800F9B5D5 /* Logo-60.png */,
+				88D568E91881A11200F9B5D5 /* Logo-76.png */,
+				88D568E318819DF100F9B5D5 /* Logo-120.png */,
+				88D568C418819C0600F9B5D5 /* Logo.png */,
 				88BE921D18682B45000F4282 /* Add.png */,
 				88BE921E18682B45000F4282 /* spline.png */,
 			);
@@ -269,12 +346,32 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88D569031881AD6100F9B5D5 /* Check-35.png in Resources */,
+				88D568C818819C0600F9B5D5 /* Logo.png in Resources */,
 				88BE91FE18682AF4000F4282 /* Images.xcassets in Resources */,
+				88D568FE1881ACEE00F9B5D5 /* Assignment-20.png in Resources */,
+				88D568F01881A24800F9B5D5 /* Logo-60.png in Resources */,
+				88D568FA1881AC9E00F9B5D5 /* Assignment-120.png in Resources */,
+				88D569041881AD6100F9B5D5 /* General-35.png in Resources */,
+				88D568E818819F0C00F9B5D5 /* Logo-20.png in Resources */,
+				88D568EA1881A11200F9B5D5 /* Logo-76.png in Resources */,
+				88D568E418819DF100F9B5D5 /* Logo-58.png in Resources */,
+				88D568FC1881ACC700F9B5D5 /* Assignment-50.png in Resources */,
+				88D568CB18819CF600F9B5D5 /* Images-2.xcassets in Resources */,
+				88D568E618819DF100F9B5D5 /* Logo-120.png in Resources */,
+				88D568F21881A2E200F9B5D5 /* Default-568h@2x.png in Resources */,
 				88BE922018682B45000F4282 /* Add.png in Resources */,
 				88BE922118682B45000F4282 /* spline.png in Resources */,
 				88BE91EA18682AF4000F4282 /* InfoPlist.strings in Resources */,
+				88D568F81881AC0E00F9B5D5 /* General.png in Resources */,
 				88BE91F318682AF4000F4282 /* Main.storyboard in Resources */,
+				88D568EF1881A24800F9B5D5 /* Logo-40.png in Resources */,
+				88D569001881AD1400F9B5D5 /* Assignment-35.png in Resources */,
+				88D568E518819DF100F9B5D5 /* Logo-80.png in Resources */,
 				88BE921F18682B45000F4282 /* Add Assignment.png in Resources */,
+				88D568F61881AC0E00F9B5D5 /* Assignment.png in Resources */,
+				88D568EE1881A24800F9B5D5 /* Logo-29.png in Resources */,
+				88D568F71881AC0E00F9B5D5 /* Check.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,11 +390,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				880AD7251883096B0020DCFB /* TodoListViewController.m in Sources */,
 				88BE922418682C5C000F4282 /* HomePageViewController.m in Sources */,
 				88BE9227186833CC000F4282 /* AddClassViewController.m in Sources */,
 				88BE91F018682AF4000F4282 /* AppDelegate.m in Sources */,
+				88236DE418817C5C00F362E1 /* SetToTimeViewController.m in Sources */,
 				88BE922A186833F6000F4282 /* AddAssignmentViewController.m in Sources */,
-				88510512187AADA70087D4D5 /* SetTimeViewController.m in Sources */,
+				880AD7221883095F0020DCFB /* AssignmentListViewController.m in Sources */,
+				88236DE118817C3D00F362E1 /* SetFromTimeViewController.m in Sources */,
 				88BE91F618682AF4000F4282 /* Just_Do.xcdatamodeld in Sources */,
 				88BE91EC18682AF4000F4282 /* main.m in Sources */,
 			);
@@ -424,8 +524,6 @@
 		88BE921618682AF4000F4282 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Just.Do/Just.Do-Prefix.pch";
 				INFOPLIST_FILE = "Just.Do/Just.Do-Info.plist";
@@ -437,8 +535,6 @@
 		88BE921718682AF4000F4282 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Just.Do/Just.Do-Prefix.pch";
 				INFOPLIST_FILE = "Just.Do/Just.Do-Info.plist";

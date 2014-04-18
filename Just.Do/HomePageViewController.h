@@ -18,9 +18,6 @@
 @property (weak, nonatomic) IBOutlet UILabel *Class2;
 @property (weak, nonatomic) IBOutlet UILabel *Location2;
 @property (weak, nonatomic) IBOutlet UILabel *Time2;
-@property (weak, nonatomic) IBOutlet UILabel *Class3;
-@property (weak, nonatomic) IBOutlet UILabel *Location3;
-@property (weak, nonatomic) IBOutlet UILabel *Time3;
 @property NSDate *currentTime;
 @property NSTimer *updateTimer;
 @end
